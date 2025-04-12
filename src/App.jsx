@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
+import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
@@ -22,6 +23,7 @@ const App = () => {
         <About />
         <Education />
         <Skill />
+        <Experience />
         <Project />
         <Contact />
       </main>
