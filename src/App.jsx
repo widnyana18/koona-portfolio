@@ -7,10 +7,11 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Education from "./components/Education";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
+import Service from "./components/Service";
 import Project from "./components/Project";
-import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -24,6 +25,7 @@ const App = () => {
         <Education />
         <Skill />
         <Experience />
+        <Service />
         <Project />
         <Contact />
       </main>

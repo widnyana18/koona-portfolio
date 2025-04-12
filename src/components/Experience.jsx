@@ -10,7 +10,7 @@ import ExperienceCard from "./ExperienceCard";
 
 function Experience() {
   return (
-    <section id="education" className="section overflow-hidden">
+    <section id="experience" className="section overflow-hidden">
       <div className="container">
         <h2 className="headline-2 mb-8">What our customers say</h2>
 
