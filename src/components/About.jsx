@@ -36,8 +36,8 @@ function About() {
             <img
               src="/images/logo.png"
               alt="Logo"
-              width={30}
-              height={30}
+              width={50}
+              height={50}
               className="ml-auto md:w-[40px]"
             />
           </div>

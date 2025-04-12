@@ -5,16 +5,22 @@
 
 import PropTypes from "prop-types";
 
-function EducationCard({ content, imgSrc, name, company }) {
+function EducationCard({
+  content,
+  institution,
+  startYear,
+  endYear,
+  gpa,
+  collage,
+  logo,
+}) {
   return (
     <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
-      <p className="text-zinc-400 mb-8">{content}</p>
-
-      <div className="flex items-center gap-2 mt-auto">
-        <figure className="img-box rounded-lg">
+      <div className="flex items-center gap-2 mt-auto mb-4">
+        <figure className="img-box rounded-lg me-4">
           <img
-            src={imgSrc}
-            alt={name}
+            src={logo}
+            alt={institution}
             width={44}
             height={44}
             loading="lazy"
@@ -23,20 +29,34 @@ function EducationCard({ content, imgSrc, name, company }) {
         </figure>
 
         <div>
-          <p>{name}</p>
+          <h2 className="title-1">{institution}</h2>
 
-          <p className="text-xs text-zinc-400 tracking-wider">{company}</p>
+          <p className="text-sm text-zinc-400 tracking-wider">
+            {startYear + " - " + endYear}
+          </p>
         </div>
       </div>
+
+      <p className="tracking-wider">
+        {collage}{" "}
+        <span className="text-sky-400">
+          {gpa != null ? " - GPA: " + gpa : ""}
+        </span>
+      </p>
+
+      <p className="text-zinc-400">{content}</p>
     </div>
   );
 }
 
 EducationCard.propTypes = {
   content: PropTypes.string.isRequired,
-  imgSrc: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  company: PropTypes.string.isRequired,
+  institution: PropTypes.string.isRequired,
+  startYear: PropTypes.string.isRequired,
+  endYear: PropTypes.string.isRequired,
+  gpa: PropTypes.string.isRequired,
+  collage: PropTypes.string.isRequired,
+  logo: PropTypes.string.isRequired,
 };
 
 export default EducationCard;
