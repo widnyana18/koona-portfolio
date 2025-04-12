@@ -10,7 +10,7 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Education from "./components/Education";
-
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
         <Education />
         <Skill />
         <Project />
+        <Contact />
       </main>
     </>
   );

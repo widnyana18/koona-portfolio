@@ -7,11 +7,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
+// Style |  CSS Link
+import './index.css'
+
 // Components
 import App from './App.jsx'
 
-// Style |  CSS Link
-import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
