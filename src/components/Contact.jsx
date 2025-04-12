@@ -3,7 +3,6 @@
  * @license Apache-2.0
  */
 
-// COMPONENTS
 
 function Contact() {
   return (
@@ -33,7 +32,11 @@ function Contact() {
           </div>
         </div>
 
-        <form action="https://getform.io/f/awnqozrb" method="POST" className="xl:pl-10 2xl:pl-20">
+        <form
+          action="https://getform.io/f/awnqozrb"
+          method="POST"
+          className="xl:pl-10 2xl:pl-20"
+        >
           <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
             <div className="mb-4">
               <label htmlFor="name" className="label">
@@ -82,7 +85,10 @@ function Contact() {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-primary !max-w-full w-full justify-center">
+          <button
+            type="submit"
+            className="btn btn-primary !max-w-full w-full justify-center"
+          >
             Submit
           </button>
         </form>
