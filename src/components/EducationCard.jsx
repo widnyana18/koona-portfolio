@@ -16,15 +16,15 @@ function EducationCard({
 }) {
   return (
     <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
-      <div className="flex items-center gap-2 mt-auto mb-4">
-        <figure className="img-box rounded-lg me-4">
+      <div className="flex items-start gap-2 mt-2 mb-4">
+        <figure className="rounded-lg me-4">
           <img
             src={logo}
             alt={institution}
-            width={44}
-            height={44}
+            width={80}
+            height={80}
             loading="lazy"
-            className="img-cover"
+            className="max-w-screen"
           />
         </figure>
 
@@ -37,7 +37,7 @@ function EducationCard({
         </div>
       </div>
 
-      <p className="tracking-wider">
+      <p className="tracking-wider mb-1">
         {collage}{" "}
         <span className="text-red-400">
           {gpa != null ? " - GPA: " + gpa : ""}

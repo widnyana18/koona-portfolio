@@ -12,7 +12,7 @@ function Experience() {
   return (
     <section id="experience" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-8">What our customers say</h2>
+        <h2 className="headline-2 mb-8">Job Experience</h2>
 
         <div className="mt-8 grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,1fr))]">
           {experience.map(

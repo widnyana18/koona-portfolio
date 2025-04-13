@@ -53,7 +53,7 @@ body {
 }
 
 .img-box {
-  @apply bg-zinc-700 overflow-hidden;
+  @apply bg-zinc-700;
 }
 
 .img-cover {

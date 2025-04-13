@@ -65,7 +65,7 @@ function Footer() {
 
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="" className="">
-            <img src="/images/logo.svg" alt="Logo" width={50} height={50} />
+            <img src="/images/logo.svg" alt="Logo" width={60} height={60} />
           </a>
 
           <p className="text-zinc-500 text-sm">

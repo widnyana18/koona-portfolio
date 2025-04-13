@@ -14,7 +14,7 @@ function Education() {
       <div className="container">
         <h2 className="headline-2 mb-8">My journey as Programmer</h2>
 
-        <div className="md:not-only:flex items-stretch gap-3 w-fit grid">
+        <div className="md:items-stretch gap-3 w-fit grid md:grid-cols-2">
           {educations.map(
             (
               { institution, collage, startYear, endYear, gpa, content, logo },
@@ -48,6 +48,16 @@ const educations = [
     content:
       "Take part in committee event and event bootcamp. Build Dynamic web sales book and furniture.",
     logo: "/images/stikom.png",
+  },
+  {
+    institution: "Studi Independen - Kampus Merdeka & Hacktiv8",
+    collage: "Scalable web service & API with Golang",
+    startYear: "2021",
+    endYear: "2022",
+    gpa: 'B',
+    content:
+      "Learn fundamental, concurency, database, & Rest API, build final project (include sertificate)",
+    logo: "/images/hacktiv8.png",
   },
   {
     institution: "Academind (Maxmillian) - Udemy",
