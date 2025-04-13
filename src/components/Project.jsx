@@ -10,13 +10,19 @@ import ProjectCard from "./ProjectCard";
 
 function Project() {
   return (
-    <section id="work" className="section">
+    <section id="project" className="section">
       <div className="container">
         <h2 className="headline-2">My portfolio highlights</h2>
 
         <div className="mt-8 grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,1fr))]">
           {projects.map(({ imgSrc, title, tags, projectLink }, key) => (
-            <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} />
+            <ProjectCard
+              key={key}
+              imgSrc={imgSrc}
+              title={title}
+              tags={tags}
+              projectLink={projectLink}
+            />
           ))}
         </div>
       </div>
@@ -27,40 +33,65 @@ function Project() {
 // DATA
 const projects = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    title: "Bala Indonesia Website",
+    date: "2021",
+    duration: "1 months",
+    desc: "A website for sales product company.",
+    techStack: ["React", "Tailwind", "TypeScript", "Firebase", "Admin JS"],
+    imgSrc: "/images/bala-web.png",
+    tags: ["E-commerce", "Biotech", "WA Blast", "Payment", "Admin Panel"],
+    githubLink: "https://github.com/widnyana18/bala-indonesia",
+    websiteLink: "https://bala-indonesia.com/",
   },
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    title: "Dunia Joglo Website",
+    date: "2023",
+    duration: "2 months",
+    desc: "A website for a sales product Property Company.",
+    techStack: [
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "Admin JS",
+      "Xendit",
+    ],
+    imgSrc: "/images/dj-web.png",
+    tags: ["E-commerce", "Property", "Payment Gateway", "Admin Panel"],
+    githubLink: "https://github.com/widnyana18/dunia-joglo",
+    websiteLink: "https://dunia-joglo.com/",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    title: "Siap-DP",
+    date: "2024",
+    duration: "1 months",
+    desc: "A website for generate the data to file Excel for the employee accounting report in goverment.",
+    techStack: ["Bootstrap", "Node.js", "MongoDB"],
+    imgSrc: "/images/siap-dp-web.png",
+    tags: ["Admin Reporting Website"],
+    githubLink: "https://github.com/widnyana18/siap-dp-report",
+    websiteLink: "https://siap-dp.com",
   },
   {
-    imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
-  },
-  {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  },
-  {
-    imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+    title: "Vigo Net",
+    date: "2024",
+    duration: "6 months",
+    desc: "A Mobile Apps for order & instalation internet service, billing system and internet management customer.",
+    techStack: ["Flutter", "TypeScript", "Node.js", "MongoDB", "Admin JS"],
+    imgSrc: "/images/vigo-app.png",
+    tags: [
+      "E-commerce",
+      "ISP",
+      "Android",
+      "IOS",
+      "Admin Panel",
+      "Ticketing",
+      "Billing System",
+    ],
+    githubLink: "https://github.com/widnyana18/vigo-net",
+    websiteLink:
+      "https://play.google.com/store/apps/details?id=com.vigo.vigo_net",
   },
 ];
 

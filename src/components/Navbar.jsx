@@ -45,13 +45,28 @@ export const Navbar = ({ navOpen }) => {
       className: "nav-link",
     },
     {
-      label: "Work",
-      link: "#work",
+      label: "Education",
+      link: "#education",
       className: "nav-link",
     },
     {
-      label: "Reviews",
-      link: "#reviews",
+      label: "Skill",
+      link: "#skill",
+      className: "nav-link",
+    },
+    {
+      label: "Experience",
+      link: "#experience",
+      className: "nav-link",
+    },
+    {
+      label: "Service",
+      link: "#service",
+      className: "nav-link",
+    },
+    {
+      label: "Project",
+      link: "#project",
       className: "nav-link",
     },
     {

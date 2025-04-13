@@ -100,7 +100,7 @@ function Contact() {
 // DATA CONTENT
 const socialLinks = [
   {
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://www.github.com/widnyana18",
     icon: (
       <svg
         width="24"
@@ -118,7 +118,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "linkedin.com/in/i-komang-widnyana-a07a56264",
     icon: (
       <svg
         width="24"
@@ -136,7 +136,7 @@ const socialLinks = [
     alt: "LinkedIn",
   },
   {
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/koonadev",
     icon: (
       <svg
         width="24"
@@ -154,7 +154,7 @@ const socialLinks = [
     alt: "Twitter X",
   },
   {
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/koona.dev/",
     icon: (
       <svg
         width="25"

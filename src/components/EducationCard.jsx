@@ -39,7 +39,7 @@ function EducationCard({
 
       <p className="tracking-wider">
         {collage}{" "}
-        <span className="text-sky-400">
+        <span className="text-red-400">
           {gpa != null ? " - GPA: " + gpa : ""}
         </span>
       </p>

@@ -12,7 +12,7 @@ function Education() {
   return (
     <section id="education" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-8">What our customers say</h2>
+        <h2 className="headline-2 mb-8">My journey as Programmer</h2>
 
         <div className="md:not-only:flex items-stretch gap-3 w-fit grid">
           {educations.map(
@@ -40,24 +40,24 @@ function Education() {
 
 const educations = [
   {
-    institution: "PixelForge",
-    collage: "Sophia Ramirez",
+    institution: "ITB Stikom Bali",
+    collage: "S1 - Information System",
     startYear: "2018",
     endYear: "2023",
-    gpa: "4.56",
+    gpa: "3.57",
     content:
-      "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
-    logo: "/images/logo-1.png",
+      "Take part in committee event and event bootcamp. Build Dynamic web sales book and furniture.",
+    logo: "/images/stikom.png",
   },
   {
-    institution: "NexaWave",
-    collage: "Ethan Caldwell",
-    startYear: "2018",
+    institution: "Academind (Maxmillian) - Udemy",
+    collage: "Fullstack Website with MERN and Flutter Mobile App",
+    startYear: "2020",
     endYear: "2023",
     gpa: null,
     content:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-    logo: "/images/logo-2.png",
+      "Learn fundamental React, State Management, React Router, and build small project (Include Sertificate) and learn Flutter Mobile App.",
+    logo: "/images/udemy.svg",
   },
 ];
 

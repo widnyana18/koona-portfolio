@@ -31,41 +31,35 @@ function Service() {
 
 const services = [
   {
+    title: "Web App Development",
     desc:
-      "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
-    title: "Sophia Ramirez",
-    imgSrc: "/images/people-1.jpg",    
+      "Build a modern web app, landing pages, or e-commerce store with our expert developers.",
+    imgSrc: "/images/web.svg",    
   },
   {
+    title: "Mobile Apps Android & IOS",
     desc:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-    title: "Ethan Caldwell",
-    imgSrc: "/images/people-2.jpg",    
+      "Build interactive mobile apps for Android and IOS with our skilled developers.",
+    imgSrc: "/images/mobile.svg",    
   },
   {
+    title: "Maintenance & Update Feature",
     desc:
-      "Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
-    title: "Liam Bennett",
-    imgSrc: "/images/people-3.jpg",    
+      "Fix bug and update features for your existing application.",
+    imgSrc: "/images/maintenance.svg",    
   },
   {
+    title: "App Design",
     desc:
-      "Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.",
-    title: "Noah Williams",
-    imgSrc: "/images/people-4.jpg",    
+      "Build bussiness flow and user experience for your application.",
+    imgSrc: "/images/design.svg",    
   },
   {
+    title: "Course & Mentoring",
     desc:
-      "Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-    title: "Ava Thompson",
-    imgSrc: "/images/people-5.jpg",    
-  },
-  {
-    desc:
-      "Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.",
-    title: "Jonathan",
-    imgSrc: "/images/people-6.jpg",    
-  },
+      "Learn programming with our mentor and course.",
+    imgSrc: "/images/course.svg",    
+  },  
 ];
 
 export default Service;

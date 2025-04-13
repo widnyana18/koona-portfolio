@@ -13,11 +13,11 @@ function About() {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance.
+            Welcome! I&apos;m Mang Wid, a Software developer with give you
+            solution for your bussiness with afordable price and provide the
+            best service. Building application that focus on user needs, main
+            problem, bussiness flow, functionality, and make it simple &
+            efficient solution.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
@@ -27,14 +27,13 @@ function About() {
                   <span className="text-2xl font-bold md:tex-4xl">
                     {number}
                   </span>
-                  <span className="text-sky-400 font-semibold md:text-3xl">+</span>
                 </div>
                 <p className="text-sm text-zinc-400">{label}</p>
               </div>
             ))}
 
             <img
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="Logo"
               width={50}
               height={50}
@@ -50,12 +49,24 @@ function About() {
 // DATA
 const aboutItems = [
   {
-    label: "Project done",
-    number: 45,
+    label: "Origin",
+    number: "Indonesia",
   },
   {
-    label: "Years of experience",
-    number: 10,
+    label: "Project done",
+    number: "2 of 5",
+  },
+  {
+    label: "Client",
+    number: "3",
+  },
+  {
+    label: "Programmer Experience",
+    number: "5 years",
+  },
+  {
+    label: "Work experience",
+    number: "1 year",
   },
 ];
 

@@ -14,7 +14,7 @@ function Experience() {
       <div className="container">
         <h2 className="headline-2 mb-8">What our customers say</h2>
 
-        <div className="md:not-only:flex items-stretch gap-3 w-fit grid">
+        <div className="mt-8 grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,1fr))]">
           {experience.map(
             (
               { company, jobTitle, year, period, jobType, content, logo },
@@ -40,24 +40,44 @@ function Experience() {
 
 const experience = [
   {
-    company: "PixelForge",
-    jobTitle: "Sophia Ramirez",
-    year: "2022 - 2023",
-    period: "1 year",
+    company: "PT. Bala Biotech Indonesia",
+    jobTitle: "Web Develooper",
+    year: "2021",
+    period: "6 months",
     jobType: "Internship",
     content:
-      "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
-    logo: "/images/logo-1.png",
+      "Build web micro business for sale product client from scratch, first design mockup and then develop to code using react.js and node.js.",
+    logo: "/images/bala.png",
   },
   {
-    company: "NexaWave",
-    jobTitle: "Ethan Caldwell",
-    year: "2024",
+    company: "Dunia Joglo",
+    jobTitle: "Programmer IT",
+    year: "2023",
     period: "6 months",
-    jobType: 'Full-time',
+    jobType: "Paid Internship",
     content:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-    logo: "/images/logo-2.png",
+      "Build web micro business for sale product client from scratch, using vue.js, and node.js.",
+    logo: "/images/dj.png",
+  },
+  {
+    company: "WNG",
+    jobTitle: "Mobile Developer",
+    year: "2023 - 2024",
+    period: "6 months",
+    jobType: "Paid Internship",
+    content:
+      "Implement SDLC process for build software. First of all, I create user flow and mockup design. after that, I develop to mobile app using Flutter.",
+    logo: "/images/wng.png",
+  },
+  {
+    company: "PT.Bima Sakti Alterra",
+    jobTitle: "Tech Ops Developer",
+    year: "2024 - 2025",
+    period: "6 months",
+    jobType: "Fulltime",
+    content:
+      "Testing web app , maintenance web, fix bug, update new feature, and analyst database.",
+    logo: "/images/bsa.png",
   },
 ];
 

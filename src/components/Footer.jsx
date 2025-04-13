@@ -19,7 +19,7 @@ function Footer() {
             </h2>
 
             <ButtonPrimary
-              href="mailto:mangwidnyana2d.art@gmail.com"
+              href="https://wa.me/6285179669575"
               label="Start project"
               icon="chevron_right"
             />
@@ -65,11 +65,12 @@ function Footer() {
 
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="" className="">
-            <img src="/images/logo.png" alt="Logo" width={50} height={50} />
+            <img src="/images/logo.svg" alt="Logo" width={50} height={50} />
           </a>
 
           <p className="text-zinc-500 text-sm">
-            &copy; 2023 <span className="text-zinc-200">Komang Widnyana. All rights</span>
+            &copy; 2023{" "}
+            <span className="text-zinc-200">Komang Widnyana. All rights</span>
           </p>
         </div>
       </div>
@@ -87,15 +88,27 @@ const sitemap = [
     href: "#about",
   },
   {
-    label: "Work",
-    href: "#work",
+    label: "Education",
+    href: "#education",
   },
   {
-    label: "Reviews",
-    href: "#reviews",
+    label: "Skill",
+    href: "#skill",
   },
   {
-    label: "Contact me",
+    label: "Experience",
+    href: "#experience",
+  },
+  {
+    label: "Service",
+    href: "#service",
+  },
+  {
+    label: "Project",
+    href: "#project",
+  },
+  {
+    label: "Contact Me",
     href: "#contact",
   },
 ];
@@ -103,23 +116,23 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://www.github.com/widnyana18",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "linkedin.com/in/i-komang-widnyana-a07a56264",
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/koonadev",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/koona.dev",
   },
   {
     label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    href: "https://codepen.io/komangwidnyana",
   },
 ];
 
