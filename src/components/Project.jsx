@@ -12,7 +12,7 @@ function Project() {
   return (
     <section id="project" className="section">
       <div className="container">
-        <h2 className="headline-2">My portfolio highlights</h2>
+        <h2 className="headline-2 reveal-up">My portfolio highlights</h2>
 
         <div className="mt-8 grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,1fr))]">
           {projects.map(({ imgSrc, title, tags, projectLink }, key) => (
@@ -22,6 +22,7 @@ function Project() {
               title={title}
               tags={tags}
               projectLink={projectLink}
+              classes="reveal-up"
             />
           ))}
         </div>

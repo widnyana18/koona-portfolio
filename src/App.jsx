@@ -3,7 +3,22 @@
  * @license Apache-2.0
  */
 
-// COMPONENTS
+/**
+ * NODE MODULES
+ */
+import { ReactLenis } from "lenis/react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+/**
+ * REGISTER GSAP
+ */
+gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to
+
+/**
+ * COMPONENTS
+ */
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -16,8 +31,27 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const App = () => {
+  useGSAP(() => {
+    const elements = gsap.utils.toArray(".reveal-up");
+
+    elements.forEach((element) => {
+      gsap.to(element, {
+        scrollTrigger: {
+          trigger: element,
+          start: "-200 bottom",
+          end: "bottom 80%",
+          scrub: true,
+        },
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        ease: "power2.out",
+      });
+    });
+  }); // register the hook to
+
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
@@ -30,7 +64,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   );
 };
 

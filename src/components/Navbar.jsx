@@ -77,7 +77,7 @@ export const Navbar = ({ navOpen }) => {
   ];
 
   return (
-    <nav className={"navbar " + (navOpen ? "active" : "")}>
+    <nav className={"navbar reveal-up " + (navOpen ? "active" : "")}>
       {navItems.map(({ label, link, className, ref }, key) => (
         <a
           key={key}

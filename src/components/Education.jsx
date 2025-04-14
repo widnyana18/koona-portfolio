@@ -12,7 +12,7 @@ function Education() {
   return (
     <section id="education" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-8">My journey as Programmer</h2>
+        <h2 className="headline-2 mb-8 reveal-up">My journey as Programmer</h2>
 
         <div className="md:items-stretch gap-3 w-fit grid md:grid-cols-2">
           {educations.map(
@@ -29,6 +29,7 @@ function Education() {
                 collage={collage}
                 institution={institution}
                 logo={logo}
+                classes="reveal-up"
               />
             )
           )}

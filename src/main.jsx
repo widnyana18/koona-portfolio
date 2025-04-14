@@ -4,18 +4,18 @@
  */
 
 // React modules
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-
-// Style |  CSS Link
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
 // Components
-import App from './App.jsx'
+import App from "./App.jsx";
 
+// Style |  CSS Link
+import "./index.css";
+import 'lenis/dist/lenis.css'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);

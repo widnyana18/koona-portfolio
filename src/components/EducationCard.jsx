@@ -13,9 +13,10 @@ function EducationCard({
   gpa,
   collage,
   logo,
+  classes
 }) {
   return (
-    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
+    <div className={"bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]" + classes}>
       <div className="flex items-start gap-2 mt-2 mb-4">
         <figure className="rounded-lg me-4">
           <img

@@ -11,7 +11,7 @@ function About() {
   return (
     <section id="about" className="section">
       <div className="container">
-        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+        <div className="reveal-up bg-zinc-800/50 p-7 rounded-2xl md:p-12">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
             Welcome! I&apos;m Mang Wid, a Software developer with give you
             solution for your bussiness with afordable price and provide the

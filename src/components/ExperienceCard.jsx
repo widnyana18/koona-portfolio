@@ -15,7 +15,7 @@ function ExperienceCard({
   logo,
 }) {
   return (
-    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[350px]">
+    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[350px] reveal-up">
       <div className="flex items-center gap-2 mt-2 mb-4">
         <figure className="img-box rounded-lg me-4">
           <img
